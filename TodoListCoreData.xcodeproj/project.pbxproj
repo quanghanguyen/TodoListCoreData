@@ -14,6 +14,8 @@
 		07F264D328EEB21700E6B57F /* TodoListCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07F264D128EEB21700E6B57F /* TodoListCoreData.xcdatamodeld */; };
 		07F264D528EEB21900E6B57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F264D428EEB21900E6B57F /* Assets.xcassets */; };
 		07F264D828EEB21900E6B57F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F264D628EEB21900E6B57F /* LaunchScreen.storyboard */; };
+		07F264E928EEB53800E6B57F /* ToDoListItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F264E728EEB53800E6B57F /* ToDoListItem+CoreDataClass.swift */; };
+		07F264EA28EEB53800E6B57F /* ToDoListItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F264E828EEB53800E6B57F /* ToDoListItem+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		07F264D428EEB21900E6B57F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07F264D728EEB21900E6B57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07F264D928EEB21900E6B57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F264E728EEB53800E6B57F /* ToDoListItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ToDoListItem+CoreDataClass.swift"; path = "TodoListCoreData/ToDoListItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		07F264E828EEB53800E6B57F /* ToDoListItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ToDoListItem+CoreDataProperties.swift"; path = "TodoListCoreData/ToDoListItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,8 @@
 		07F264BC28EEB21700E6B57F = {
 			isa = PBXGroup;
 			children = (
+				07F264E728EEB53800E6B57F /* ToDoListItem+CoreDataClass.swift */,
+				07F264E828EEB53800E6B57F /* ToDoListItem+CoreDataProperties.swift */,
 				07F264C728EEB21700E6B57F /* TodoListCoreData */,
 				07F264C628EEB21700E6B57F /* Products */,
 			);
@@ -144,6 +150,8 @@
 				07F264CD28EEB21700E6B57F /* ViewController.swift in Sources */,
 				07F264C928EEB21700E6B57F /* AppDelegate.swift in Sources */,
 				07F264D328EEB21700E6B57F /* TodoListCoreData.xcdatamodeld in Sources */,
+				07F264E928EEB53800E6B57F /* ToDoListItem+CoreDataClass.swift in Sources */,
+				07F264EA28EEB53800E6B57F /* ToDoListItem+CoreDataProperties.swift in Sources */,
 				07F264CB28EEB21700E6B57F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
